@@ -40,3 +40,8 @@ div#banner {
     font-weight: bold;
     font-size: 20px;
 }
+
+#banner img {
+    width: 550px;
+    height: 303px;
+}
