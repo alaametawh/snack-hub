@@ -1,0 +1,48 @@
+body {
+    background-color: lightgreen;
+}
+
+#title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    background-color: orange;
+}
+
+#homepage{
+    text-align: center;
+}
+
+#homepage button a ,#homepage button{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 11px;
+    font-weight: bold;
+}
+
+#recipe-card img {
+    width: 650px;
+    height: auto;
+}
+#recipe-card {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#ingredients h1 {
+    text-align: center;
+}
+
+ul li,ol li{
+    margin-bottom: 15px;
+}
+
+#naruto img{
+    width: 350px;
+    height: auto;
+}
