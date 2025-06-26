@@ -2,11 +2,15 @@ body {
     background-color: lightgreen;
 }
 
-#title {
+#title p{
     text-align: center;
     font-size: 46px;
     font-weight: bold;
     background-color: orange;
+    width: 350px;
+    margin: auto;
+    border-radius: 8px;
+    border: 3px black solid;
 }
 
 #homepage{
@@ -25,6 +29,9 @@ body {
 #recipe-card img {
     width: 550px;
     height: 325px;
+    margin: 10px;
+    border: 3px black solid;
+    border-radius: 8px;
 }
 
 #recipe-card {
