@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: rgb(31, 51, 67);
 }
 
 #title {
@@ -22,37 +22,72 @@ body {
 .second {
     background-color: orange;
 }
-
-div#banner {
-    text-align: center;
-    padding: 10px;
+/* ===================================== */
+span {
+    display: inline-block;
 }
 
-#recipe ul li{
-    text-align: center;
-    list-style:none;
-    margin-bottom: 10px;
+#recipe1 img,#recipe2 img{
+    width: 306px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 20px 35px;
 }
 
-#recipe ul li a {
+#recipe3 img{
+    width: 306px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+#banner {
+    text-align: center;
+
+}
+div#banner img {
+    border: 3px solid;
+    border-radius: 8px;
+    width: 700px;
+    height: 303px;
+    margin: 20px;
+}
+
+#recipe1 button,#recipe2 button{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    background-color: orange;
+    padding: 10px 20px;
+}
+
+#recipe1 button a,#recipe2 button a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-div#recipe button {
+div#recipe3{
+    width: 320px;
+    margin: 10px auto;
+
+}
+#recipe3 button{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
     background-color: orange;
-    width: 200px;
-    width: 350px;margin: auto;
-    border-radius: 8px;
+    padding: 10px 20px;
+
 }
 
-#banner img {
-    width: 550px;
-    height: 303px;
-    border: 3px black solid;
-    border-radius: 8px;
+#recipe3 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
 
+}
 
+div#recipe {
+    text-align: center;
+    margin: 10px;
 }

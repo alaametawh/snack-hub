@@ -41,11 +41,17 @@ body {
 #description {
     text-align: center;
 }
-
-#ingredients h1 {
-    text-align: center;
+ul {
+    margin: 10px auto;
 }
 
-ul li,ol li{
-    margin-bottom: 15px;
+ol {
+    margin: 10px auto;
+}
+
+li {
+    margin: 15px;
+}
+#ingredients h1 {
+    text-align: center;
 }
